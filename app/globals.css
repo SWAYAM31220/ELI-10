@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: radial-gradient(1250px 650px at 10% -20%, #fbe7ff 0%, transparent 60%),
+        radial-gradient(900px 500px at 110% 10%, #d7ebff 0%, transparent 50%);
+}
+
+html, body { background: var(--bg); }
+
+.prose p { margin: 0.5rem 0; }
